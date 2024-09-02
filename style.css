@@ -11,3 +11,10 @@
   display: block;
   background-color: #101010;
 }
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
