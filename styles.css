@@ -5,26 +5,37 @@ body, h1, h2, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    color: #fff;
+    background: #111; /* Dark background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #222; /* Darker header background */
     padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 header h1 {
-    text-align: center;
-    margin-bottom: 0.5em;
+    display: inline;
+    color: #fff;
+    font-size: 1.8em;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    padding: 0;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -35,23 +46,48 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1em;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #f4b400; /* Highlight color */
 }
 
-main {
-    padding: 2em;
+.hero {
+    background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
     text-align: center;
+    padding: 4em 0;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn-primary {
+    background: #f4b400; /* Button color */
+    color: #111;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #e0a900;
 }
 
 footer {
-    background: #333;
+    background: #222;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
