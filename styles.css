@@ -73,7 +73,7 @@ nav ul li a:hover {
 }
 
 .hero-image {
-    width: 450px; /* Three times the width of the button */
+    width: 350px; /* Slightly larger than before */
     height: auto; /* Maintain aspect ratio */
     margin: 1em auto; /* Center image and add vertical margin */
     display: block; /* Ensure image is displayed as a block element */
@@ -88,7 +88,7 @@ nav ul li a:hover {
     border-radius: 5px;
     font-weight: bold;
     font-size: 1em; /* Button font size */
-    width: 150px; /* Set fixed width for button */
+    width: 150px; /* Reverted button width */
     margin-top: 1em; /* Add margin to create space above the button */
 }
 
