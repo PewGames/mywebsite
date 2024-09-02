@@ -73,7 +73,7 @@ nav ul li a:hover {
 }
 
 .hero-image {
-    width: 350px; /* Slightly larger than before */
+    width: 450px; /* Slightly larger than before */
     height: auto; /* Maintain aspect ratio */
     margin: 1em auto; /* Center image and add vertical margin */
     display: block; /* Ensure image is displayed as a block element */
