@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: #222; /* Darker header background */
+    background: #0f0f0f; /* Darker header background */
     padding: 1em 0;
     position: fixed;
     width: 100%;
